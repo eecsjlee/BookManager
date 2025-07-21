@@ -22,3 +22,12 @@ WinForms 기반의 도서 관리 프로그램입니다.
 UI 관련 코드는 `Forms/`
 DB 관련 로직은 `Data/`
 비즈니스 모델 클래스는 `Models/`
+
+
+## 트러블슈팅
+
+### System.Data.SqlClient 관련 클래스 인식 불가
+System.Data.SqlClient 관련 클래스 인식 불가  
+.NET 6 이상에서는 System.Data.SqlClient가 기본 포함되지 않음. → NuGet 패키지로 따로 설치해야 함.  
+https://learn.microsoft.com/ko-kr/nuget/quickstart/install-and-use-a-package-in-visual-studio
+

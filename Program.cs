@@ -1,3 +1,5 @@
+using BookManager.Forms;
+
 namespace BookManager
 {
     internal static class Program
